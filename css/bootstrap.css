@@ -3429,6 +3429,7 @@ tbody.collapse.in {
   outline: 0;
 }
 .dropdown-menu {
+  outline-color: #fff;
   position: absolute;
   top: 100%;
   left: 0;
@@ -3438,14 +3439,15 @@ tbody.collapse.in {
   min-width: 160px;
   padding: 5px 0;
   margin: 2px 0 0;
-  font-size: 14px;
+  font-size: 12px;
+  font-family: Arial;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #000;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, .15);
+  border: 1px solid rgba(f, f, f, .15);
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
           box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
