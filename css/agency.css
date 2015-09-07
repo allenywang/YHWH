@@ -305,7 +305,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 16px;
         font-style: italic;
         line-height: 40px;
     }
@@ -933,9 +933,6 @@ body{
     display: inline-block;
     margin-left: 2px;
     vertical-align: middle;
-}
-.dropdown-toggle {
-    color: #fff;
 }
 /*MEDIA QUERIES*/
 @media screen and(max-width:760px){
